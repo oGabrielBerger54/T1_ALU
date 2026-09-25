@@ -18,18 +18,18 @@ module tb_ALU();
     logic [WIDTH-1:0]     A, B;
     op_code               op;
     logic [(2*WIDTH)-1:0] Saida;
-    logic zero, overflow, negative, cout, equal, gtThan, lsThan;
+    logic zero, overflow, negative, equal, gtThan, lsThan;
 
     // valores esperados, calculados pelo modelo de referencia
     logic [(2*WIDTH)-1:0] eSaida;
-    logic eZero, eOvf, eNeg, eCout, eEq, eGt, eLs;
+    logic eZero, eOvf, eNeg, eEq, eGt, eLs;
 
     int testes = 0, erros = 0;
 
     ALU #(.WIDTH(WIDTH)) dut (
         .A(A), .B(B), .op(op), .Saida(Saida),
         .zero(zero), .overflow(overflow), .negative(negative),
-        .cout(cout), .equal(equal), .gtThan(gtThan), .lsThan(lsThan)
+        .equal(equal), .gtThan(gtThan), .lsThan(lsThan)
     );
 
     // calcula o que a ALU deveria responder
@@ -41,7 +41,7 @@ module tb_ALU();
 
         // a ALU zera todas as flags antes do case
         eSaida = '0;
-        eZero = 0; eOvf = 0; eNeg = 0; eCout = 0; eEq = 0; eGt = 0; eLs = 0;
+        eZero = 0; eOvf = 0; eNeg = 0; eEq = 0; eGt = 0; eLs = 0;
 
         case (o)
             SUM, SUB: begin
@@ -49,10 +49,9 @@ module tb_ALU();
                 bb  = cin ? ~b : b;
                 {c7, low}  = a[WIDTH-2:0] + bb[WIDTH-2:0] + cin;
                 {c8, soma} = a + bb + cin;
-                eSaida = soma;
+                eSaida = {{WIDTH{1'b0}}, soma};
                 eZero  = (soma == '0);
                 eNeg   = soma[WIDTH-1];
-                eCout  = c8;
                 eOvf   = c8 ^ c7;            // overflow em complemento de dois
             end
 
@@ -75,7 +74,7 @@ module tb_ALU();
                     XOR:     res = a ^ b;
                     default: res = ~a;       // NOT usa so o A
                 endcase
-                eSaida = res;
+                eSaida = {{WIDTH{1'b0}}, res};
                 eZero  = (res == '0);
             end
 
@@ -91,18 +90,18 @@ module tb_ALU();
         testes++;
 
         if (verb >= ALTO)
-            $display("[%0t] %-3s A=%3d B=%3d -> Saida=%04h z=%b ovf=%b neg=%b cout=%b eq=%b gt=%b ls=%b",
-                     $time, o.name(), a, b, Saida, zero, overflow, negative, cout, equal, gtThan, lsThan);
+            $display("[%0t] %-3s A=%3d B=%3d -> Saida=%04h z=%b ovf=%b neg=%b eq=%b gt=%b ls=%b",
+                     $time, o.name(), a, b, Saida, zero, overflow, negative, equal, gtThan, lsThan);
 
-        assert ({Saida, zero, overflow, negative, cout, equal, gtThan, lsThan} ===
-                {eSaida, eZero, eOvf, eNeg, eCout, eEq, eGt, eLs})
+        assert ({Saida, zero, overflow, negative, equal, gtThan, lsThan} ===
+                {eSaida, eZero, eOvf, eNeg, eEq, eGt, eLs})
         else begin
             erros++;
             if (erros <= 20)   // evita encher o log se o erro for sistematico
-                $error("%s A=%0d B=%0d | obtido %04h %b%b%b%b%b%b%b | esperado %04h %b%b%b%b%b%b%b",
+                $error("%s A=%0d B=%0d | obtido %04h %b%b%b%b%b%b | esperado %04h %b%b%b%b%b%b",
                        o.name(), a, b,
-                       Saida,  zero,  overflow, negative, cout,  equal, gtThan, lsThan,
-                       eSaida, eZero, eOvf,     eNeg,     eCout, eEq,   eGt,    eLs);
+                       Saida,  zero,  overflow, negative, equal, gtThan, lsThan,
+                       eSaida, eZero, eOvf, eNeg, eEq, eGt, eLs);
         end
     endtask
 
@@ -111,7 +110,6 @@ module tb_ALU();
         if (verb >= LOW) $display("[%0t] casos dirigidos", $time);
 
         testa(8'd0,   8'd0,   SUM);   // resultado zero
-        testa(8'd255, 8'd1,   SUM);   // cout
         testa(8'd127, 8'd1,   SUM);   // overflow
         testa(8'd128, 8'd128, SUM);   // overflow + cout
 
@@ -157,7 +155,7 @@ module tb_ALU();
         A = 8'hA5; B = 8'h5A; op = op_code'(raw);
         #1;
         testes++;
-        assert (Saida === '0 && {zero,overflow,negative,cout,equal,gtThan,lsThan} === 7'b0)
+        assert (Saida === '0 && {zero,overflow,negative,equal,gtThan,lsThan} === 6'b0)
         else begin
             erros++;
             $error("op invalida deveria zerar tudo, veio Saida=%04h", Saida);

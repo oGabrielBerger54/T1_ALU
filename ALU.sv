@@ -14,7 +14,7 @@ module ALU #(parameter WIDTH = 8)
 logic [WIDTH-1:0] resAndLogic, resOrLogic, resXorLogic, resNotLogic;
 
 // Soldas intermediárias do ALU com SUMSUB
-logic overflowSomaSub, zeroSomaSub, negativeSomaSub, coutSomaSub, equalSomaSub, gtSomaSub, ltSomaSub;
+logic overflowSomaSub, zeroSomaSub, negativeSomaSub, equalSomaSub, gtSomaSub, ltSomaSub;
 
 // Fio para modo aritimético (adição ou subtração)
 logic mode;
@@ -49,7 +49,6 @@ SUMSUB #(.WIDTH(WIDTH)) SumSubUnit (
     .overflow(overflowSomaSub),
     .negative(negativeSomaSub),
     .zero(zeroSomaSub),
-    .cout(coutSomaSub),
     .equal(equalSomaSub),
     .gtThan(gtSomaSub),
     .lsThan(ltSomaSub)
@@ -67,7 +66,6 @@ always_comb begin
     zero     = 1'b0;
     overflow = 1'b0;
     negative = 1'b0;
-    //cout     = 1'b0;
     equal    = 1'b0;
     gtThan   = 1'b0;
     lsThan   = 1'b0;
@@ -79,7 +77,6 @@ always_comb begin
                 zero = zeroSomaSub;
                 overflow = overflowSomaSub;
                 negative = negativeSomaSub;
-                //cout = coutSomaSub;
             end
         SUB:
             begin
@@ -87,7 +84,6 @@ always_comb begin
                 zero = zeroSomaSub;
                 overflow = overflowSomaSub;
                 negative = negativeSomaSub;
-                //cout = coutSomaSub;
             end
         MUL:
             begin
@@ -104,22 +100,22 @@ always_comb begin
         AND:  
             begin
                 saidaMux = {{WIDTH{1'b0}}, resAndLogic};
-                zero     = (!resAndLogic) ? 1 : 0;
+                zero     = (resAndLogic == '0) ? 1 : 0;
             end
         OR:   
             begin 
                 saidaMux = {{WIDTH{1'b0}}, resOrLogic};
-                zero     = (!resOrLogic) ? 1 : 0;
+                zero     = (resOrLogic == '0) ? 1 : 0;
             end
         XOR:  
             begin 
                 saidaMux = {{WIDTH{1'b0}}, resXorLogic};
-                zero     = (!resXorLogic) ? 1 : 0;
-            end
+                zero     = (resXorLogic == '0) ? 1 : 0;
+            end 
         NOT:  
             begin 
                 saidaMux = {{WIDTH{1'b0}}, resNotLogic};
-                zero     = (!resNotLogic) ? 1 : 0;
+                zero     = (resNotLogic == '0) ? 1 : 0;
             end
         default: saidaMux = '0;
     endcase
