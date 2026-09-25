@@ -6,8 +6,9 @@ module ALU #(parameter WIDTH = 8)
     input logic [WIDTH-1:0] A, B,
     input op_code op,
     output logic [(2*WIDTH)-1:0] Saida, // (***)
-    output logic zero, overflow, negative, cout, equal, gtThan, lsThan
+    output logic zero, overflow, negative, equal, gtThan, lsThan
 );
+
 
 // Solda intermediária dos resultados de LOGIC com ALU
 logic [WIDTH-1:0] resAndLogic, resOrLogic, resXorLogic, resNotLogic;
@@ -66,7 +67,7 @@ always_comb begin
     zero     = 1'b0;
     overflow = 1'b0;
     negative = 1'b0;
-    cout     = 1'b0;
+    //cout     = 1'b0;
     equal    = 1'b0;
     gtThan   = 1'b0;
     lsThan   = 1'b0;
@@ -78,7 +79,7 @@ always_comb begin
                 zero = zeroSomaSub;
                 overflow = overflowSomaSub;
                 negative = negativeSomaSub;
-                cout = coutSomaSub;
+                //cout = coutSomaSub;
             end
         SUB:
             begin
@@ -86,7 +87,7 @@ always_comb begin
                 zero = zeroSomaSub;
                 overflow = overflowSomaSub;
                 negative = negativeSomaSub;
-                cout = coutSomaSub;
+                //cout = coutSomaSub;
             end
         MUL:
             begin
