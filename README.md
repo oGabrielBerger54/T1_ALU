@@ -3,7 +3,7 @@ Projeto referente ao trabalho 1 da disciplina Sistemas Digitais da PUCRS
 
 Foi descrita uma ULA (Unidade Lógica Aritmética) em SystemVerilog para ser programada na placa FPGA Nexys A7, com os resultados numéricos exibidos nos LEDs monocromáticos e casos especiais (overflow, zero, negativo) e de comparação(equal, greater than, less than) nos LEDs RGB direito e esquerdo, respectivamente.
 
-O design inteiro é puramente combinacional — não existe clock, latch nem flip-flop em nenhum ponto.
+O design inteiro é puramente combinacional, não existe clock, latch nem flip-flop em nenhum ponto.
 
 ## Inputs:
 Os inputs são as variáveis A e B, e o opcode. Tanto A quanto B são definidos bit a bit nos switchs de 0 a 15, onde de 0 a 7 é o valor de A, de 8 a 15 o valor de B. O opcode é um vetor de 3 bits, cada bit é definido pelos botões BTNL, BTNC e BTNR, as operações são dadas pela tabela abaixo:
