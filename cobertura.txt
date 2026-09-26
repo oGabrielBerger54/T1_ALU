@@ -1,0 +1,3161 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_ALU/dut/LogicUnit
+=== Design Unit: work.LOGIC
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         4         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/LogicUnit --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File LOGIC.sv
+    10              1                     526376     
+    11              1                     526376     
+    12              1                     526376     
+    13              1                       2069     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/genblk1[7]/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[7]/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[7]/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                      32900     
+    9               1                      32900     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/genblk1[6]/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[6]/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[6]/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                      57556     
+    9               1                      57556     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/genblk1[5]/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[5]/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[5]/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                      98658     
+    9               1                      98658     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/genblk1[4]/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[4]/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[4]/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     164452     
+    9               1                     164452     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/genblk1[3]/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[3]/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[3]/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     263208     
+    9               1                     263208     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/genblk1[2]/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[2]/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[2]/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     395044     
+    9               1                     395044     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/genblk1[1]/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[1]/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/genblk1[1]/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     527396     
+    9               1                     527396     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     526365     
+    9               1                     526365     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/SumSubUnit
+=== Design Unit: work.SUMSUB
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         6         6         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_ALU/dut/SumSubUnit
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SUMSUB.sv
+------------------------------------IF Branch------------------------------------
+    16                                    524309     Count coming in to IF
+    16              1                     131080     
+    19              1                     393229     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    46                                   1283007     Count coming in to IF
+    46              1                      13143     
+    46              2                    1269864     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    53                                     53442     Count coming in to IF
+    53              1                      25705     
+    53              2                      27737     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/SumSubUnit --
+
+  File SUMSUB.sv
+-----------Focused Expression View (Bimodal)------------
+Line       49 Item    1  (carry[8] ^ carry[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+-----------Focused Expression View (Bimodal)------------
+Line       53 Item    1  (~overflow? negative: ~negative)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       54 Item    1  (equal ~| lsThan)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       8         8         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/SumSubUnit --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File SUMSUB.sv
+    12              1                         12     
+    15              1                     524309     
+    17              1                     131080     
+    20              1                     393229     
+    46              1                    1283016     
+    49              1                      41111     
+    53              1                      53445     
+    54              1                      59806     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[7]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[7]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[7]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     183503     
+    9               1                     183503     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[6]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[6]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[6]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     280345     
+    9               1                     280345     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[5]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[5]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[5]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     384717     
+    9               1                     384717     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[4]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[4]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[4]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     487770     
+    9               1                     487770     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[3]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[3]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[3]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     592665     
+    9               1                     592665     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[2]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[2]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[2]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     679926     
+    9               1                     679926     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[1]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[1]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[1]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     747709     
+    9               1                     747709     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[0]/genblk2/halfAdder
+=== Design Unit: work.HA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[0]/genblk2/halfAdder --
+
+  File HA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  (A ^ B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (A & B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[7]/genblk1[0]/genblk2/halfAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File HA.sv
+    8               1                     819085     
+    9               1                     819085     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[7]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[7]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[7]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     220848     
+    9               1                     220848     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[6]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[6]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[6]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     344909     
+    9               1                     344909     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[5]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[5]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[5]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     464696     
+    9               1                     464696     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[4]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[4]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[4]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     579500     
+    9               1                     579500     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[3]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[3]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[3]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     682104     
+    9               1                     682104     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[2]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[2]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[2]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     771330     
+    9               1                     771330     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[1]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[1]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[1]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     926502     
+    9               1                     926502     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[0]/genblk2/halfAdder
+=== Design Unit: work.HA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[0]/genblk2/halfAdder --
+
+  File HA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  (A ^ B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (A & B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[6]/genblk1[0]/genblk2/halfAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File HA.sv
+    8               1                     799385     
+    9               1                     799385     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[7]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[7]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[7]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     267577     
+    9               1                     267577     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[6]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[6]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[6]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     421624     
+    9               1                     421624     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[5]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[5]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[5]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     556877     
+    9               1                     556877     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[4]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[4]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[4]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     673805     
+    9               1                     673805     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[3]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[3]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[3]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     766672     
+    9               1                     766672     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[2]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[2]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[2]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     945473     
+    9               1                     945473     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[1]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[1]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[1]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     903040     
+    9               1                     903040     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[0]/genblk2/halfAdder
+=== Design Unit: work.HA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[0]/genblk2/halfAdder --
+
+  File HA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  (A ^ B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (A & B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[5]/genblk1[0]/genblk2/halfAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File HA.sv
+    8               1                     761975     
+    9               1                     761975     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[7]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[7]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[7]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     325097     
+    9               1                     325097     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[6]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[6]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[6]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     502363     
+    9               1                     502363     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[5]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[5]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[5]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     647970     
+    9               1                     647970     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[4]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[4]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[4]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     743533     
+    9               1                     743533     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[3]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[3]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[3]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     929284     
+    9               1                     929284     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[2]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[2]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[2]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     911288     
+    9               1                     911288     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[1]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[1]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[1]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     858682     
+    9               1                     858682     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[0]/genblk2/halfAdder
+=== Design Unit: work.HA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[0]/genblk2/halfAdder --
+
+  File HA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  (A ^ B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (A & B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[4]/genblk1[0]/genblk2/halfAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File HA.sv
+    8               1                     702393     
+    9               1                     702393     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[7]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[7]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[7]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     389261     
+    9               1                     389261     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[6]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[6]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[6]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     576085     
+    9               1                     576085     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[5]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[5]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[5]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     695939     
+    9               1                     695939     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[4]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[4]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[4]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     885839     
+    9               1                     885839     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[3]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[3]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[3]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     874253     
+    9               1                     874253     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[2]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[2]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[2]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     847801     
+    9               1                     847801     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[1]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[1]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[1]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     784191     
+    9               1                     784191     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[0]/genblk2/halfAdder
+=== Design Unit: work.HA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[0]/genblk2/halfAdder --
+
+  File HA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  (A ^ B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (A & B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[3]/genblk1[0]/genblk2/halfAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File HA.sv
+    8               1                     611627     
+    9               1                     611627     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[7]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[7]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[7]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     417891     
+    9               1                     417891     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[6]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[6]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[6]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     602879     
+    9               1                     602879     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[5]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[5]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[5]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     800116     
+    9               1                     800116     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[4]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[4]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[4]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     794051     
+    9               1                     794051     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[3]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[3]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[3]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     786663     
+    9               1                     786663     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[2]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[2]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[2]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     764977     
+    9               1                     764977     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[1]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[1]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[1]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     708653     
+    9               1                     708653     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[0]/genblk2/halfAdder
+=== Design Unit: work.HA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[0]/genblk2/halfAdder --
+
+  File HA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  (A ^ B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (A & B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[2]/genblk1[0]/genblk2/halfAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File HA.sv
+    8               1                     527907     
+    9               1                     527907     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[7]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         4         2    66.66%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[7]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 2 of 3 input terms covered = 66.66%
+
+  Input Term   Covered  Reason for no coverage                  Hint
+ -----------  --------  --------------------------------------  --------------
+           A         Y
+           B         N  '_0' hit but '_1' not hit              Hit '_1' for output ->0 or ->1
+         cin         Y
+
+    Rows:   Hits(->0)   Hits(->1)  FEC Target            Non-masking condition(s)           
+
+---------  ----------  ----------  --------------------  -------------------------          
+ Row   1:           1           0  A_0                   -                                  
+ Row   2:           0           1  A_1                   -                                  
+ Row   3:           1           1  B_0                   -                                  
+ Row   4:           0           0  B_1                   -                                  
+ Row   5:           1           1  cin_0                 -                                  
+ Row   6:           1           0  cin_1                 -                                  
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 2 of 3 input terms covered = 66.66%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+           A         Y
+           B         N  '_1' not hit             Hit '_1'
+         cin         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  A_0                   (~(B & cin) && B), (~(B & cin) && cin)
+  Row   2:          1  A_1                   (~(B & cin) && ~(A & cin) && B), (~(B & cin) && ~(A & B) && cin)
+  Row   3:          1  B_0                   (~(A & cin) && A), (~((A & B) | (A & cin)) && cin)
+  Row   4:    ***0***  B_1                   (~(B & cin) && ~(A & cin) && A), (~((A & B) | (A & cin)) && cin)
+  Row   5:          1  cin_0                 (~(A & B) && A), (~((A & B) | (A & cin)) && B)
+  Row   6:          1  cin_1                 (~(B & cin) && ~(A & B) && A), (~((A & B) | (A & cin)) && B)
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[7]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     359653     
+    9               1                     359653     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[6]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[6]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[6]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     620938     
+    9               1                     620938     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[5]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[5]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[5]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     619127     
+    9               1                     619127     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[4]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[4]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[4]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     615382     
+    9               1                     615382     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[3]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[3]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[3]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     607642     
+    9               1                     607642     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[2]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[2]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[2]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     591641     
+    9               1                     591641     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[1]/genblk2/fullAdder
+=== Design Unit: work.FA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[1]/genblk2/fullAdder --
+
+  File FA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  ((A ^ B) ^ cin)
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (((A & B) | (A & cin)) | (B & cin))
+Expression totals: 3 of 3 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[1]/genblk2/fullAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File FA.sv
+    8               1                     526878     
+    9               1                     526878     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[0]/genblk2/halfAdder
+=== Design Unit: work.HA
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[0]/genblk2/halfAdder --
+
+  File HA.sv
+-----------Focused Expression View (Bimodal)------------
+Line       8 Item    1  (A ^ B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       9 Item    1  (A & B)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit/genblk3[1]/genblk1[0]/genblk2/halfAdder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File HA.sv
+    8               1                     396310     
+    9               1                     396310     
+
+=================================================================================
+=== Instance: /tb_ALU/dut/MulUnit
+=== Design Unit: work.MUL
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_ALU/dut/MulUnit
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File MUL.sv
+------------------------------------IF Branch------------------------------------
+    92                                   4826804     Count coming in to IF
+    92              1                       2453     
+    92              2                    4824351     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                    128       128         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_ALU/dut/MulUnit --
+
+  File MUL.sv
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,0) (A[0] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,1) (A[1] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,2) (A[2] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,3) (A[3] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,4) (A[4] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,5) (A[5] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,6) (A[6] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=0,7) (A[7] & B[0])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,0) (A[0] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,1) (A[1] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,2) (A[2] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,3) (A[3] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,4) (A[4] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,5) (A[5] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,6) (A[6] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=1,7) (A[7] & B[1])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,0) (A[0] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,1) (A[1] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,2) (A[2] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,3) (A[3] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,4) (A[4] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,5) (A[5] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,6) (A[6] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=2,7) (A[7] & B[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,0) (A[0] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,1) (A[1] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,2) (A[2] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,3) (A[3] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,4) (A[4] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,5) (A[5] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,6) (A[6] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=3,7) (A[7] & B[3])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,0) (A[0] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,1) (A[1] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,2) (A[2] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,3) (A[3] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,4) (A[4] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,5) (A[5] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,6) (A[6] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=4,7) (A[7] & B[4])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,0) (A[0] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,1) (A[1] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,2) (A[2] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,3) (A[3] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,4) (A[4] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,5) (A[5] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,6) (A[6] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=5,7) (A[7] & B[5])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,0) (A[0] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,1) (A[1] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,2) (A[2] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,3) (A[3] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,4) (A[4] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,5) (A[5] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,6) (A[6] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=6,7) (A[7] & B[6])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,0) (A[0] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,1) (A[1] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,2) (A[2] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,3) (A[3] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,4) (A[4] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,5) (A[5] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,6) (A[6] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       24 Item    1 (GI=7,7) (A[7] & B[7])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                     145       145         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut/MulUnit --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File MUL.sv
+    24     1 (GI=0,0)                     526358     
+    24     1 (GI=0,1)                     525337     
+    24     1 (GI=0,2)                     524820     
+    24     1 (GI=0,3)                     524567     
+    24     1 (GI=0,4)                     524435     
+    24     1 (GI=0,5)                     524370     
+    24     1 (GI=0,6)                     524341     
+    24     1 (GI=0,7)                     524326     
+    24     1 (GI=1,0)                     264213     
+    24     1 (GI=1,1)                     263192     
+    24     1 (GI=1,2)                     262675     
+    24     1 (GI=1,3)                     262422     
+    24     1 (GI=1,4)                     262290     
+    24     1 (GI=1,5)                     262225     
+    24     1 (GI=1,6)                     262196     
+    24     1 (GI=1,7)                     262181     
+    24     1 (GI=2,0)                     133146     
+    24     1 (GI=2,1)                     132125     
+    24     1 (GI=2,2)                     131608     
+    24     1 (GI=2,3)                     131355     
+    24     1 (GI=2,4)                     131223     
+    24     1 (GI=2,5)                     131158     
+    24     1 (GI=2,6)                     131129     
+    24     1 (GI=2,7)                     131114     
+    24     1 (GI=3,0)                      67607     
+    24     1 (GI=3,1)                      66586     
+    24     1 (GI=3,2)                      66069     
+    24     1 (GI=3,3)                      65816     
+    24     1 (GI=3,4)                      65684     
+    24     1 (GI=3,5)                      65619     
+    24     1 (GI=3,6)                      65590     
+    24     1 (GI=3,7)                      65575     
+    24     1 (GI=4,0)                      34835     
+    24     1 (GI=4,1)                      33814     
+    24     1 (GI=4,2)                      33297     
+    24     1 (GI=4,3)                      33044     
+    24     1 (GI=4,4)                      32912     
+    24     1 (GI=4,5)                      32847     
+    24     1 (GI=4,6)                      32818     
+    24     1 (GI=4,7)                      32803     
+    24     1 (GI=5,0)                      18454     
+    24     1 (GI=5,1)                      17433     
+    24     1 (GI=5,2)                      16916     
+    24     1 (GI=5,3)                      16663     
+    24     1 (GI=5,4)                      16531     
+    24     1 (GI=5,5)                      16466     
+    24     1 (GI=5,6)                      16437     
+    24     1 (GI=5,7)                      16422     
+    24     1 (GI=6,0)                      10257     
+    24     1 (GI=6,1)                       9236     
+    24     1 (GI=6,2)                       8719     
+    24     1 (GI=6,3)                       8466     
+    24     1 (GI=6,4)                       8334     
+    24     1 (GI=6,5)                       8269     
+    24     1 (GI=6,6)                       8240     
+    24     1 (GI=6,7)                       8225     
+    24     1 (GI=7,0)                       6164     
+    24     1 (GI=7,1)                       5143     
+    24     1 (GI=7,2)                       4626     
+    24     1 (GI=7,3)                       4373     
+    24     1 (GI=7,4)                       4241     
+    24     1 (GI=7,5)                       4176     
+    24     1 (GI=7,6)                       4147     
+    24     1 (GI=7,7)                       4132     
+    32       1 (GI=0)                     524323     
+    32       1 (GI=1)                     524323     
+    32       1 (GI=2)                     524323     
+    32       1 (GI=3)                     524323     
+    32       1 (GI=4)                     524323     
+    32       1 (GI=5)                     524323     
+    32       1 (GI=6)                     524323     
+    32       1 (GI=7)                     524323     
+    46     1 (GI=1,7)                    6326726     
+    46     1 (GI=2,7)                    6326726     
+    46     1 (GI=3,7)                    6326726     
+    46     1 (GI=4,7)                    6326726     
+    46     1 (GI=5,7)                    6326726     
+    46     1 (GI=6,7)                    6326726     
+    46     1 (GI=7,7)                    6326726     
+    50     1 (GI=1,0)                   12715748     
+    50     1 (GI=1,1)                   12715748     
+    50     1 (GI=1,2)                   12715748     
+    50     1 (GI=1,3)                   12715748     
+    50     1 (GI=1,4)                   12715748     
+    50     1 (GI=1,5)                   12715748     
+    50     1 (GI=1,6)                   12715748     
+    50     1 (GI=2,0)                   12715748     
+    50     1 (GI=2,1)                   12715748     
+    50     1 (GI=2,2)                   12715748     
+    50     1 (GI=2,3)                   12715748     
+    50     1 (GI=2,4)                   12715748     
+    50     1 (GI=2,5)                   12715748     
+    50     1 (GI=2,6)                   12715748     
+    50     1 (GI=3,0)                   12715748     
+    50     1 (GI=3,1)                   12715748     
+    50     1 (GI=3,2)                   12715748     
+    50     1 (GI=3,3)                   12715748     
+    50     1 (GI=3,4)                   12715748     
+    50     1 (GI=3,5)                   12715748     
+    50     1 (GI=3,6)                   12715748     
+    50     1 (GI=4,0)                   12715748     
+    50     1 (GI=4,1)                   12715748     
+    50     1 (GI=4,2)                   12715748     
+    50     1 (GI=4,3)                   12715748     
+    50     1 (GI=4,4)                   12715748     
+    50     1 (GI=4,5)                   12715748     
+    50     1 (GI=4,6)                   12715748     
+    50     1 (GI=5,0)                   12715748     
+    50     1 (GI=5,1)                   12715748     
+    50     1 (GI=5,2)                   12715748     
+    50     1 (GI=5,3)                   12715748     
+    50     1 (GI=5,4)                   12715748     
+    50     1 (GI=5,5)                   12715748     
+    50     1 (GI=5,6)                   12715748     
+    50     1 (GI=6,0)                   12715748     
+    50     1 (GI=6,1)                   12715748     
+    50     1 (GI=6,2)                   12715748     
+    50     1 (GI=6,3)                   12715748     
+    50     1 (GI=6,4)                   12715748     
+    50     1 (GI=6,5)                   12715748     
+    50     1 (GI=6,6)                   12715748     
+    50     1 (GI=7,0)                   12715748     
+    50     1 (GI=7,1)                   12715748     
+    50     1 (GI=7,2)                   12715748     
+    50     1 (GI=7,3)                   12715748     
+    50     1 (GI=7,4)                   12715748     
+    50     1 (GI=7,5)                   12715748     
+    50     1 (GI=7,6)                   12715748     
+    76              1                   12715748     
+    80       1 (GI=1)                   12715748     
+    80       1 (GI=2)                   12715748     
+    80       1 (GI=3)                   12715748     
+    80       1 (GI=4)                   12715748     
+    80       1 (GI=5)                   12715748     
+    80       1 (GI=6)                   12715748     
+    86       1 (GI=0)                   12715748     
+    86       1 (GI=1)                   12715748     
+    86       1 (GI=2)                   12715748     
+    86       1 (GI=3)                   12715748     
+    86       1 (GI=4)                   12715748     
+    86       1 (GI=5)                   12715748     
+    86       1 (GI=6)                   12715748     
+    86       1 (GI=7)                   12715748     
+    90              1                    6326726     
+    92              1                    4826814     
+
+=================================================================================
+=== Instance: /tb_ALU/dut
+=== Design Unit: work.ALU
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        19        19         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_ALU/dut
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALU.sv
+------------------------------------IF Branch------------------------------------
+    21                                        17     Count coming in to IF
+    21              1                          4     
+    21              2                         13     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    73                                   1048615     Count coming in to CASE
+    74              1                     131078     
+    81              1                     131079     
+    88              1                     131077     
+    93              1                     131079     
+    100             1                     131075     
+    105             1                     131073     
+    110             1                     131076     
+    115             1                     131075     
+    120             1                          3     
+Branch totals: 9 hits of 9 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    103                                   131075     Count coming in to IF
+    103             1                      13123     
+    103             2                     117952     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    108                                   131073     Count coming in to IF
+    108             1                          2     
+    108             2                     131071     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    113                                   131076     Count coming in to IF
+    113             1                        514     
+    113             2                     130562     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    118                                   131075     Count coming in to IF
+    118             1                        513     
+    118             2                     130562     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         2         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_ALU/dut --
+
+  File ALU.sv
+----------------Focused Condition View-------------------
+Line       21 Item    1  ((op == SUB) || (op == COM))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      31        31         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_ALU/dut --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALU.sv
+    21              1                         19     
+    64              1                    1048615     
+    66              1                    1048615     
+    67              1                    1048615     
+    68              1                    1048615     
+    69              1                    1048615     
+    70              1                    1048615     
+    71              1                    1048615     
+    76              1                     131078     
+    77              1                     131078     
+    78              1                     131078     
+    79              1                     131078     
+    83              1                     131079     
+    84              1                     131079     
+    85              1                     131079     
+    86              1                     131079     
+    90              1                     131077     
+    91              1                     131077     
+    95              1                     131079     
+    96              1                     131079     
+    97              1                     131079     
+    98              1                     131079     
+    102             1                     131075     
+    103             1                     131075     
+    107             1                     131073     
+    108             1                     131073     
+    112             1                     131076     
+    113             1                     131076     
+    117             1                     131075     
+    118             1                     131075     
+    120             1                          3     
+
+=================================================================================
+=== Instance: /tb_ALU
+=== Design Unit: work.tb_ALU
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/tb_ALU/testa/immed__96
+                     tbALU.sv(96)                       0          1
+/tb_ALU/opInvalido/immed__158
+                     tbALU.sv(158)                      0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/tb_ALU/testa/immed__96
+                     tbALU.sv(96)                       0          1
+/tb_ALU/opInvalido/immed__158
+                     tbALU.sv(158)                      0          1
+
+Total Coverage By Instance (filtered view): 99.92%
+
