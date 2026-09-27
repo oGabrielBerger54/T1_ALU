@@ -50,3 +50,9 @@ LED-esquerda:   Azul  |    Verde      |    Vermelho
                                  │ 
                                  
 {BTNL,BTNU,BTNR} ───► opcode[2:0]┘
+
+## Recursos Consumidos
+No total o projeto utiliza 146 LUT, 0 FF, 0 BRAM, 0 URAM e 0 DSP, como é demonstrado nas capturas de tela tiradas diretamente do Vivado:
+![Print do Vivado](./recursos.png)
+![Esquematica](./esquematica.png)
+![esqzoom](./esquematicazoom.png)
